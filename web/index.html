@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Form Data</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="Formdata" method="GET">
+            <b>Name:</b><br>
+            <input type="text" name="Name"><br>
+            <b>Address:</b><br>
+            <textarea name="Address" rows="5" cols="20"></textarea><br>
+            <b>PIN Code:</b><br>
+            <input type="text" name="PIN"><br>
+            <b>State:</b><br>
+            <select name="State">
+                <option value="Andhra Pradesh">Andhra Pradesh</option>
+                <option value="Madhya Pradesh">Madhya Pradesh</option>
+                <option value="Uttar Pradesh">Uttar Pradesh</option>
+                <option value="Bhopal">Bhopal</option>
+                <option value="Tamil Nadu">Tamil Nadu</option>
+            </select>
+            <br>
+            <b>Highest Qualification:</b><br>
+            Post Graduate: <input type="radio" value="Post Graduate" name="Graduation"/><br>
+            Under Graduate: <input type="radio" value="Under Graduate" name="Graduation"/><br>
+            Intermediate: <input type="radio" value="Intermediate" name="Graduation"/><br>
+            High School: <input type="radio" value="High School" name="Graduation"/><br>
+             <b>Skills:</b><br>
+            Java: <input type="checkbox" value="Java" name="Skills"/><br>
+            C Language: <input type="checkbox" value="C" name="Skills"/><br>
+            Python: <input type="checkbox" value="Python" name="Skills"/><br>
+            C++: <input type="checkbox" value="C++" name="Skills"/><br>
+            <input type="submit" value="Submit"/>  
+            <input type="reset" value="Reset" />  
+        </form>
+    </body>
+</html>
